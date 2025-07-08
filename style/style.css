@@ -160,11 +160,13 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
+   
+
 }
 
 nav ul li {
     list-style: none;
-    margin-right: 51px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -438,7 +440,41 @@ input[type="email"] {
 
 @media screen and (max-width: 576px) {
 
-   
+.header{
+    background-image: none;
+    margin-bottom: -50px;
+}
+
+nav{
+    margin: 20px;
+   justify-content: none;
+   flex-direction: column;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 0;
+}
+nav ul{
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+.banner{
+    margin: 20px;
+    flex-direction: column;
+}
+
+.banner-profile-pic{
+    width: 100%;
+    display: none;
+}
+
   .skill-contents {
     margin-top: 50px;
     display: flex;
